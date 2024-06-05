@@ -13,13 +13,6 @@ html_code = """
 <html>
 <head>
   <title>Coze Bot Integration</title>
-  <style>
-    #coze-chat {
-      width: 100%;
-      height: 600px;
-      border: 1px solid #ccc;
-    }
-  </style>
   <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.2/libs/oversea/index.js"></script>
 </head>
 <body>
@@ -33,9 +26,6 @@ html_code = """
           },
           componentProps: {
             title: 'Coze',  // 聊天组件的标题
-            containerId: 'coze-chat',  // 将聊天组件嵌入到指定的div中
-            width: '100%',  // 设置聊天组件的宽度
-            height: '600px'  // 设置聊天组件的高度
           },
         });
         console.log("Coze Web SDK initialized successfully.");
