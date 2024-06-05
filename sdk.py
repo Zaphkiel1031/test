@@ -26,6 +26,7 @@ html_code = """
           },
           componentProps: {
             title: 'Coze',  // 聊天组件的标题
+            lang: 'zh-TW'  // 设置语言为繁体中文
           },
         });
         console.log("Coze Web SDK initialized successfully.");
